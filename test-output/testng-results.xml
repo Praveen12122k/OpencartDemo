@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-20T23:23:48 IST" name="Master Test Suite" finished-at="2026-03-20T23:24:06 IST" duration-ms="18427">
+    <groups>
+      <group name="Master">
+        <method signature="TC002_LoginAccountTest.verify_account_login()[pri:0, instance:testCases.TC002_LoginAccountTest@3f270e0a]" name="verify_account_login" class="testCases.TC002_LoginAccountTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginAccountTest.verify_account_login()[pri:0, instance:testCases.TC002_LoginAccountTest@3f270e0a]" name="verify_account_login" class="testCases.TC002_LoginAccountTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2026-03-20T23:23:48 IST" name="ChromeBrowser" finished-at="2026-03-20T23:24:06 IST" duration-ms="18427">
+      <class name="testCases.TC002_LoginAccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginAccountTest@3f270e0a]" started-at="2026-03-20T23:23:48 IST" name="setup" finished-at="2026-03-20T23:24:01 IST" duration-ms="13256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_login()[pri:0, instance:testCases.TC002_LoginAccountTest@3f270e0a]" started-at="2026-03-20T23:24:01 IST" name="verify_account_login" finished-at="2026-03-20T23:24:05 IST" duration-ms="4215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginAccountTest@3f270e0a]" started-at="2026-03-20T23:24:05 IST" name="teardown" finished-at="2026-03-20T23:24:06 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_LoginAccountTest -->
+    </test> <!-- ChromeBrowser -->
+  </suite> <!-- Master Test Suite -->
+</testng-results>

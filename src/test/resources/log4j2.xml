@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="basepath">./logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="CONSOLE">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n"/>
+        </Console>
+        <!--    <File name="INFO_LOG" fileName="${basepath}/INFO.log">
+               <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n"/>
+           </File> -->
+          <RollingFile name="INFO_LOG"
+                        fileName="${basepath}/INFO.log"
+                        filePattern="${basepath}/INFO-%d{yyyy-MM-dd-HH-mm}-%i.log">
+               <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n"/>
+               <Policies>
+                   <SizeBasedTriggeringPolicy size="5000"/>
+               </Policies>
+               <DefaultRolloverStrategy max="5"/>
+           </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="Info">
+            <AppenderRef ref="INFO_LOG" />
+            <!--<AppenderRef ref="CONSOLE" />-->
+        </Root>
+    </Loggers>
+</Configuration>
+
+
+        <!--
+        Log Levels in Log4j2
+
+        TRACE  - Most detailed logs, used for deep debugging.
+        DEBUG  - Detailed information for developers during debugging.
+        INFO   - General application events (test started, browser launched).
+        WARN   - Something unexpected but the application can still continue.
+        ERROR  - A serious issue occurred (test failure, element not found).
+        FATAL  - Critical error that may stop the application.
+        -->
