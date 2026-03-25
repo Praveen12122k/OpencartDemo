@@ -1,11 +1,13 @@
-2026-03-22 19:33:31.707 [main] INFO  testCases.TC002_LoginAccountTest - User is on Home Page
-2026-03-22 19:33:32.382 [main] INFO  testCases.TC002_LoginAccountTest - User clicked on Login From Dropdown and Navigated to LoginAccount Page
-2026-03-22 19:33:32.806 [main] INFO  testCases.TC002_LoginAccountTest - User Successfully Logged in 
-2026-03-22 19:33:33.903 [main] INFO  testCases.TC002_LoginAccountTest - User logged Out Successfully
-2026-03-22 19:33:33.904 [main] INFO  testCases.TC002_LoginAccountTest - verify_account_login Successfully Executed
-2026-03-22 19:33:34.343 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60723d6a: 75 ms
-2026-03-22 19:33:34.345 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@71178a52: 2 ms
-2026-03-22 19:33:34.357 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1e63d216: 12 ms
-2026-03-22 19:33:34.364 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4fcc0416: 7 ms
-2026-03-22 19:33:34.374 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6075b2d3: 9 ms
-2026-03-22 19:33:34.374 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@33abde31: 0 ms
+2026-03-25 10:40:14.975 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-03-25 10:40:15.022 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 14 ms.
+2026-03-25 10:40:19.336 [main] INFO  testCases.TC002_LoginAccountTest - User is on Home Page
+2026-03-25 10:40:20.383 [main] INFO  testCases.TC002_LoginAccountTest - User clicked on Login From Dropdown and Navigated to LoginAccount Page
+2026-03-25 10:40:20.989 [main] INFO  testCases.TC002_LoginAccountTest - User Successfully Logged in 
+2026-03-25 10:40:22.519 [main] INFO  testCases.TC002_LoginAccountTest - User logged Out Successfully
+2026-03-25 10:40:22.521 [main] INFO  testCases.TC002_LoginAccountTest - verify_account_login Successfully Executed
+2026-03-25 10:40:23.257 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2b97cc1f: 144 ms
+2026-03-25 10:40:23.262 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@64f555e7: 4 ms
+2026-03-25 10:40:23.282 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6edaa77a: 20 ms
+2026-03-25 10:40:23.296 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5972d253: 14 ms
+2026-03-25 10:40:23.308 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6ef81f31: 11 ms
+2026-03-25 10:40:23.308 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6075b2d3: 0 ms
